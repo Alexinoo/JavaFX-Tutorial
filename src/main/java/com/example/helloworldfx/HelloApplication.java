@@ -21,16 +21,16 @@ public class HelloApplication extends Application {
       //  FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("layouts/stackpane-layout.fxml"));
 
         // Controls
-       // FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("controls.fxml"));
+       // FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("controls/controls.fxml"));
 
         // Events
         // FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("events/events-handling.fxml"));
 
         // CSS with JavaFX
-//        setUserAgentStylesheet(STYLESHEET_CASPIAN);
+        // setUserAgentStylesheet(STYLESHEET_CASPIAN);
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("styling/styling_css.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 500);
-        stage.setTitle("Hello!");
+        stage.setTitle("JavaFX Tutorial!");
         stage.setScene(scene);
         stage.show();
     }
