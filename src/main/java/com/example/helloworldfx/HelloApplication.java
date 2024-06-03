@@ -24,7 +24,11 @@ public class HelloApplication extends Application {
        // FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("controls.fxml"));
 
         // Events
-         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("events/events-handling.fxml"));
+        // FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("events/events-handling.fxml"));
+
+        // CSS with JavaFX
+//        setUserAgentStylesheet(STYLESHEET_CASPIAN);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("styling/styling_css.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 500);
         stage.setTitle("Hello!");
         stage.setScene(scene);
