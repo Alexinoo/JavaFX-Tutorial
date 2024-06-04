@@ -79,8 +79,9 @@ public class StyleController {
 
     @FXML
     public void handleLinkClick(){
+        //Open on another tab - Using system's default browser
         try{
-            Desktop.getDesktop().browse(new URI("https://www.google.com"));
+            Desktop.getDesktop().browse(new URI("https://openjfx.io/"));
         }catch (IOException e){
             e.printStackTrace();
         }catch (URISyntaxException e){
