@@ -24,6 +24,6 @@
 
     <Hyperlink text="www.javafx.com" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#handleLinkClick" />
 
-    <WebView GridPane.rowIndex="4" GridPane.columnIndex="0"  GridPane.rowSpan="3" GridPane.columnSpan="5" />
+<!--    <WebView GridPane.rowIndex="4" GridPane.columnIndex="0"  GridPane.rowSpan="3" GridPane.columnSpan="5" />-->
 
 </GridPane>

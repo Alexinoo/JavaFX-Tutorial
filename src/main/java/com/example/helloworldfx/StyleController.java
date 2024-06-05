@@ -26,6 +26,9 @@ public class StyleController {
     @FXML
     private GridPane gridPane;
 
+    @FXML
+    //private WebView webView;
+
     public void initialize(){
 //        label.setScaleX(2.0);
 //        label.setScaleY(2.0);
@@ -87,6 +90,10 @@ public class StyleController {
         }catch (URISyntaxException e){
             e.printStackTrace();
         }
+
+        //Open inside the UI on the WebView area content - Did not work
+       // WebEngine engine = webView.getEngine();
+       // engine.load("https://openjfx.io/");
     }
 
 }
